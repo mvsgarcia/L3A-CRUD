@@ -58,7 +58,7 @@
                     magna aliqua.</p>
             </div>
 
-            <!--================================ login ================================-->
+            <!--================================ create ================================-->
             <form method="post" action="{{ route('users.store') }}"
                 class="flex flex-col items-center justify-center w-full h-full bg-gray-800 bg-opacity-75 lg:col-span-2">
                 @csrf
